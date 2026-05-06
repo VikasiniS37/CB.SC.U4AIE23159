@@ -7,11 +7,6 @@ the mongo db can be connected to diffenent applications like big data analystics
 here, we have to design the json file for this application in an efficient way.
 thorugh the postman we can connect the apis that is called in the terminal in vs, when we edit the file in the postman the request thorugh the api connection can be viewed in the localhost (corresponding to the application).
 
-# stage 3
-SELECT * FROM notifications
-WHERE studentID =1024 AND isRead = false
-ORDER BY createdAt DESC;
-
 # stage 5
 function notify is used to send the notification of the recieved mesaages to the respecte thrid party.
 the expanded solution to this problem would be the redesigning of the harcoded copy of the application.
